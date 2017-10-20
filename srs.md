@@ -1,13 +1,8 @@
-**Neverending Awesome Pdungeon**
+# Neverending Awesome Pdungeon
 
-**Software Requirements Specification**
-
-**For Dungeon crawler and Base building**
-
-
+## Software Requirements Specification
 
 Version 1.0
-
 
 ## Revision History
 
@@ -53,7 +48,7 @@ n/a
 
 ### 1.1 Purpose
 
-[Specify the purpose of this **SRS**. The **SRS** fully describes the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints, and other factors necessary to provide a complete and comprehensive description of the requirements for the software.]
+The **SRS** fully describes the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints, and other factors necessary to provide a complete and comprehensive description of the requirements for the software.
 
 ### 1.2 Scope
 
@@ -62,10 +57,10 @@ The scope of this project consists of two parts - the "Dungeon Crawler" part and
 ### 1.3 Definitions, Acronyms, and Abbreviations
 
 NAP [studio name]: Nightmare Adventure Productions  
-NAP [game]: Neverending Awesome Pdungeon
-HP: Hitpoints (Health)
-MP: Manapoints (Used to activate skills)
-GUI: Graphical User Interface
+NAP [game]: Neverending Awesome Pdungeon  
+HP: Hitpoints (Health)  
+MP: Manapoints (Used to activate skills)  
+GUI: Graphical User Interface  
 
 ### 1.4 References
 
@@ -79,25 +74,25 @@ With „Neverending AWESOME Pdungeon – We needed a name edition“ (Yes, we kn
 
 Technologies:
 
-Our Project will be realised with Unity.
-For Project Management we will use TeamCity.
-IDE: VisualStudio
-Planned subtasks / features:
+* Our Project will be realised with Unity.
+* For Project Management we will use TeamCity.
+* IDE: VisualStudio
 
-creating the GUI
-the dungeon part
-endless, procedurally generated dungeon
-implement different enemies
-combat system (weapons)
-random items for players to find
-movement system
-upgrade system / skill points
-different terrains
-skill tree
-character creation
-base
-upgrades
-build workshops to craft your own gear
+Planned subtasks / features:
+* creating the GUI
+* the dungeon part
+* endless, procedurally generated dungeon
+* implement different enemies
+* combat system (weapons)
+* random items for players to find
+* movement system
+* upgrade system / skill points
+* different terrains
+* skill tree
+* character creation
+* base
+* upgrades
+* build workshops to craft your own gear
 
 ## 2. Overall Description
 
@@ -148,6 +143,10 @@ The user should be able to customize different settings, such as ...
 
 The game will be published as a free download on our blog. Automatic updates will be available if published via game distribution platforms like Steam or the Google Play Store.
 
+#### 3.2.3 Required training time
+
+The controls will be simple, intuitive and easy to remember. Mastering the game, however, requires a lot of practice and strategy.
+
 ### 3.3 Reliability
 
 #### 3.3.1 Bugs
@@ -155,10 +154,6 @@ The game will be published as a free download on our blog. Automatic updates wil
 The game should be as bug-free as possible. Any game-breaking bugs will be fixed as soon as possible, even after the release.
 
 ### 3.4 Performance
-
-[The system&#39;s performance characteristics are outlined in this section. Include specific response times. Where applicable, reference related Use Cases by name.
-
-- Resource utilization, such as memory, disk, communications, and so forth.
 
 #### 3.4.1 Ressource utilization
 
@@ -170,8 +165,6 @@ An internet connection will not be required for any purpose other than initially
 n/a (yet)
 
 ### 3.6 Design Constraints
-
-[This section indicates any design constraints on the system being built. Design constraints represent design decisions that have been mandated and must be adhered to.  Examples include software languages, software process requirements, prescribed use of developmental tools, architectural and design constraints, purchased components, class libraries, and so on.]
 
 #### 3.6.1 Language
 
@@ -186,8 +179,6 @@ There will be a tutorial and a manual.
 Unity Personal is free to use for up to 100.000$ yearly income. Since we'll be publishing the game for free, this will not be an issue. Even if we someday publish paid DLCs, we're unlikely to cross this threshold.
 
 ### 3.9 Interfaces
-
-[This section defines the interfaces that must be supported by the application. It should contain adequate specificity, protocols, ports and logical addresses, and the like, so that the software can be developed and verified against the interface requirements.]
 
 #### 3.9.1 User Interfaces
 
