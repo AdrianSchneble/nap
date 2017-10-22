@@ -32,15 +32,17 @@ n/a
 | 3.1.10       Character Creation        |
 | 3.1.11       Skills        |
 |         Usability        |
-| 3.2.1        &lt;Usability Requirement One&gt;        |
+| 3.2.1        Accessability       |
+| 3.2.2        Settings       |
+| 3.2.2        Deployment       |
+| 3.2.2        Required Training Time      |
 |         Reliability        |
-| 3.3.1        &lt;Reliability Requirement One&gt;        |
+| 3.3.1        Bugs        |
 |         Performance        |
-| 3.4.1        &lt;Performance Requirement One&gt;        |
+| 3.4.1        Ressource utilization        |
 |         Supportability        |
-| 3.5.1        &lt;Supportability Requirement One&gt;        |
 |         Design Constraints        |
-| 3.6.1        &lt;Design Constraint One&gt;        |
+| 3.6.1        Language       |
 |         On-line User Documentation and Help System Requirements        |
 |         Purchased Components        |
 |         Interfaces        |
@@ -141,7 +143,7 @@ Both players and enemies can utilize different weapons and fighting styles in co
 
 The game is going to use an 8-axis movement system. Movement speed can be enhanced or decreased by using items or spells.
 
-#### 3.1.8 Differens Terrains
+#### 3.1.8 Different Terrains
 
 Depending on the theme, a floor can contain patches or consist entirely of terrain with different properties from the default terrain (eg. increasing or decreasing movement speed, healing or damaging the player). These properties can be both beneficial and harmful for the player. Different terrain is clearly marked by using different graphics. 
 
@@ -161,12 +163,6 @@ For a certain amount of gold, the player is able to retrain their character. Ret
 
 ### 3.2 Usability
 
-[This section includes all those requirements that affect usability. For example,
-
-- specify the required training time for a normal users and a power user to become productive at particular operations
-- specify measurable task times for typical tasks or base the new system&#39;s usability requirements on other systems that the users know and like
-- specify requirement to conform to common usability standards, such as IBM&#39;s CUA standards Microsoft&#39;s GUI standards]
-
 #### 3.2.1 Accessability
 
 The game should be playable on most modern desktop computers by being ressource-efficient and cross-platform. A keyboard/mouse-combo or a standard XBox or PlayStation controller should be sufficient.
@@ -174,14 +170,14 @@ The game should be playable on most modern desktop computers by being ressource-
 #### 3.2.2 Settings
 
 The user should be able to customize different settings, such as ...
-* volume
-* controls
+* Volume
+* Controls
 
 #### 3.2.3 Deployment
 
 The game will be published as a free download on our blog. Automatic updates will be available if published via game distribution platforms like Steam or the Google Play Store.
 
-#### 3.2.3 Required training time
+#### 3.2.4 Required training time
 
 The controls will be simple, intuitive and easy to remember. Mastering the game, however, requires a lot of practice and strategy.
 
