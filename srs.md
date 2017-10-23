@@ -83,7 +83,7 @@ n/a
 
 Our Vision is to create a game, that combines features of a dungeon crawler game with those of a base-building system. Not only are you going to crawl through the dungeon and explore a new world, but you will have to buy upgrades at your base to gain access to more advanced equipment.
 
-With „Neverending AWESOME Pdungeon – We needed a name edition“ (Yes, we know the name is stupid…) we want to promote the players‘ curiosity and ambition by facing them with increasingly difficult challenges.
+With „Neverending AWESOME Pdungeon – We needed a name edition“, we want to promote the players‘ curiosity and ambition by facing them with increasingly difficult challenges.
 
 Technologies:
 
