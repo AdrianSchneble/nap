@@ -1,9 +1,9 @@
 
-Neverending Awesome PDungeon
+# Neverending Awesome PDungeon
 
-Use-Case Specification: &lt;Use-Case Name&gt;
+# Use-Case Specification: &lt;Use-Case Name&gt;
 
-Version 1.0
+# Version 1.0
 
 [Note: The following template is provided for use with the Rational Unified Process. Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]
 
