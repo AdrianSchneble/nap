@@ -78,6 +78,7 @@ GUI: Graphical User Interface
 ### 1.4 References
 
 <a href="https://github.com/AdrianSchneble/nap/blob/master/usecases/unlock-door.md">UC - Open doors</a>
+
 <a href="https://github.com/AdrianSchneble/nap/blob/master/usecases/interacting-with-loot-containers.md">UC - Interacting with loot containers</a>
 
 ### 1.5 Overview
