@@ -1,9 +1,15 @@
 
 # Neverending Awesome PDungeon
 
-# Use-Case Specification: Unlock doors
+# Use-Case Specification: &lt;Use-Case Name&gt;
 
 # Version 1.0
+
+[Note: The following template is provided for use with the Rational Unified Process. Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]
+
+[To customize automatic fields in Microsoft Word (which display a gray background when selected), select File&gt;Properties and replace the Title, Subject and Company fields with the appropriate information for this document. After closing the dialog, automatic fields may be updated throughout the document by selecting Edit&gt;Select All (or Ctrl-A) and pressing F9, or simply click on the field and press F9. This must be done separately for Headers and Footers. Alt-F9 will toggle between displaying the field names and the field contents. See Word help for more information on working with fields.]
+
+
 
 Revision History
 
@@ -16,7 +22,7 @@ Revision History
 
 Table of Contents
 
-| 1.        Use-Case Name        |
+| 1.        Opening Doors        |
 | --- |
 |         Brief Description        |
 | 2.        Flow of Events        |
@@ -34,11 +40,19 @@ Table of Contents
 |         &lt;Name of Extension Point&gt;        |
 | Use-Case Specification: &lt;Use-Case Name&gt; |
 
- ## 1. Use-Case Name
+[The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties.
+
+The use-case diagrams can be developed in a visual modeling tool, such as Rational Rose. A use-case report, with all properties, may be generated with Rational SoDA. For more information, see the tool mentors in the Rational Unified Process.]
+
+ ## 1. Opening Doors
  
  ### 1.1 Brief Description
 
 [The description briefly conveys the role and purpose of the use case. A single paragraph will suffice for this description.]
+
+<img src = "https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/Screenshot_open_door_1.png">
+
+<img src = "https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/Screenshot_open_door_2.png">
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
@@ -50,6 +64,8 @@ The use case describes what happens inside the system, but not how or why. If in
 Simple alternatives may be presented within the text of the use case. If it only takes a few sentences to describe what happens when there is an alternative, do it directly within the **Flow of Events** section. If the alternative flow is more complex, use a separate section to describe it. For example, an **Alternative Flow** subsection explains how to describe more complex alternatives.
 
 A picture is sometimes worth a thousand words, though there is no substitute for clean, clear prose. If it improves clarity, feel free to paste graphical depictions of user interfaces, process flows or other figures into the use case. If a flow chart is useful to present a complex decision process, by all means use it!  Similarly for state-dependent behavior, a state-transition diagram often clarifies the behavior of a system better than pages upon pages of text. Use the right presentation medium for your problem, but be wary of using terminology, notations or figures that your audience may not understand. Remember that your purpose is to clarify, not obscure.]
+
+<img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/UC_OpenDoor_ActivityDiagram.png">
 
 ### 2.2 Alternative Flows
 #### 2.2.1&lt; First Alternative Flow &gt;
