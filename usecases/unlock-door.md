@@ -37,7 +37,7 @@ Table of Contents
  ## 1. Opening Doors
  
  ### 1.1 Brief Description
-This use case describes how the game is processing an attempt to open a door. Both locked and unlocked doors are covered by this use case
+This use case describes how the game is processing an attempt to open a door. Both locked and unlocked doors are covered by this use case.
 
 <img src = "https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/Screenshot_open_door_1.png">
 
