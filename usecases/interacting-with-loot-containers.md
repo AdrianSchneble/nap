@@ -23,7 +23,7 @@ Table of Contents
 |         Basic Flow        |
 |         Alternative Flows        |
 | 2.2.1        Player is killed during combat        |
-| 2.2.1        Player flees       |
+| 2.2.2        Player flees       |
 | 3.        Special Requirements        |
 | 4.        Preconditions        |
 |         &lt; Precondition One &gt;        |
