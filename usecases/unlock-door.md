@@ -22,10 +22,7 @@ Table of Contents
 | 2.        Flow of Events        |
 |         Basic Flow        |
 |         Alternative Flows        |
-| 2.2.1        &lt; First Alternative Flow &gt;        |
-| 2.2.2        &lt; Second Alternative Flow &gt;        |
 | 3.        Special Requirements        |
-|         &lt; First Special Requirement &gt;        |
 | 4.        Preconditions        |
 |         &lt; Precondition One &gt;        |
 | 5.        Postconditions        |
@@ -46,26 +43,17 @@ This use case describes how the game is processing an attempt to open a door. Bo
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 
+The use case is intiated by the player trying to open a door by approaching it. The system then checks whether the door is locked, which was determind when the dungeon floor was generated. If the door is not locked or the player has a key for a locked door, the door is considered open, and the doors icon is changed to represent an opened door. If the door is locked and the player does not have a key, the system displays a message to the player telling them that a key is required. The player then has to find a key to open the door.
+
 <img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/UC_OpenDoor_ActivityDiagram.png">
 
 ### 2.2 Alternative Flows
-#### 2.2.1&lt; First Alternative Flow &gt;
 
-tbd
-
-#### 2.2.1.1&lt; An Alternative Subflow &gt;
-
-tbd
-
-#### 2.2.2&lt; Second Alternative Flow &gt;
-
-tbd
+The use case has only two possible flows, which are both part of the basic flow. Therefore, this use case does not have any alternative flows
 
 ## 3. Special Requirements
 
-### 3.1&lt; First Special Requirement &gt;
-
-tbd
+n/a
 
 ## 4. Preconditions
 
