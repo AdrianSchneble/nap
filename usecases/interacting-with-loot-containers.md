@@ -22,10 +22,9 @@ Table of Contents
 | 2.        Flow of Events        |
 |         Basic Flow        |
 |         Alternative Flows        |
-| 2.2.1        &lt; First Alternative Flow &gt;        |
-| 2.2.2        &lt; Second Alternative Flow &gt;        |
+| 2.2.1        Player is killed during combat        |
+| 2.2.1        Player flees       |
 | 3.        Special Requirements        |
-|         &lt; First Special Requirement &gt;        |
 | 4.        Preconditions        |
 |         &lt; Precondition One &gt;        |
 | 5.        Postconditions        |
@@ -43,26 +42,22 @@ Table of Contents
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 
+The use case is initiated by the player interacting with a loot container. The system first checks if the loot container is a mimic, which was determined when the loot container was generated. If the loot container is not a mimic, items are randomly selected from the loot table for the respective loot container. If the loot container is a mimic, the player has to fight against it. Upon defeating the mimic, loot is then randomly selected from the mimic loot table. In both scenarios, the selected items are then added to the players inventory. The player is then able to inspect the items they just found. 
+
 <img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/UC_InteractWithLootContainers_ActivityDiagram.png">
 
 ### 2.2 Alternative Flows
-#### 2.2.1&lt; First Alternative Flow &gt;
+#### 2.2.1 Player is killed during combat
 
-tbd
+If the loot container turns out to be a mimic and the player loses the fight against it, the player is killed and the current game is over. In this case, the use case ends after "combat".
 
-#### 2.2.1.1&lt; An Alternative Subflow &gt;
+#### 2.2.2 Player flees
 
-tbd
-
-#### 2.2.2&lt; Second Alternative Flow &gt;
-
-tbd
+The loot container turns out to be a mimic, and the player disengages from combat and flees. In this case, the use case ends after "combat". In this alternative flow, the player is still alive and can continue to explore the dungeon. 
 
 ## 3. Special Requirements
 
-### 3.1&lt; First Special Requirement &gt;
-
-tbd
+n/a
 
 ## 4. Preconditions
 
