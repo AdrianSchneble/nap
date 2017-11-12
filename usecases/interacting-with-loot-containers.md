@@ -46,6 +46,10 @@ The use case is initiated by the player interacting with a loot container. The s
 
 <img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/UC_InteractWithLootContainers_ActivityDiagram.png">
 
+<a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/InteractWithLootContainers.feature>.feature-file</a>
+
+<a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/InteractWithLootContainersSteps.cs> Narrative </a>
+
 ### 2.2 Alternative Flows
 #### 2.2.1 Player is killed during combat
 
