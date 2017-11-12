@@ -54,7 +54,7 @@ namespace NAP
             ScenarioContext.Current.Pending();
         }
         
-        [When(@"I press E")]
+        [When(@"I press e")]
         public void WhenIPressE()
         {
             ScenarioContext.Current.Pending();
