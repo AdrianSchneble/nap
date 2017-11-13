@@ -47,9 +47,9 @@ The use case is intiated by the player trying to open a door by approaching it. 
 
 <img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/UC_OpenDoor_ActivityDiagram.png">
 
-<a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/OpenDoor.feature>.feature-file</a>
+<a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/OpenDoor.feature>Narrative</a>
 
-<a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/OpenDoorSteps.cs> Narrative </a>
+<a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/OpenDoorSteps.cs>Step definitions</a>
 
 ### 2.2 Alternative Flows
 
