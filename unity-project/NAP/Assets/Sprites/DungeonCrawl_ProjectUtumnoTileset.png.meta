@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5d538d5a7d4ba4947b3f29c12f90d170
-timeCreated: 1509295852
+timeCreated: 1510679101
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -784,14 +784,14 @@ TextureImporter:
     21301554: DungeonCrawl_ProjectUtumnoTileset_777
     21301556: DungeonCrawl_ProjectUtumnoTileset_778
     21301558: DungeonCrawl_ProjectUtumnoTileset_779
-    21301560: DungeonCrawl_ProjectUtumnoTileset_780
-    21301562: DungeonCrawl_ProjectUtumnoTileset_781
-    21301564: DungeonCrawl_ProjectUtumnoTileset_782
-    21301566: DungeonCrawl_ProjectUtumnoTileset_783
-    21301568: DungeonCrawl_ProjectUtumnoTileset_784
-    21301570: DungeonCrawl_ProjectUtumnoTileset_785
-    21301572: DungeonCrawl_ProjectUtumnoTileset_786
-    21301574: DungeonCrawl_ProjectUtumnoTileset_787
+    21301560: Fire1
+    21301562: Fire2
+    21301564: Fire3
+    21301566: Fire4
+    21301568: Fire5
+    21301570: Fire6
+    21301572: Fire7
+    21301574: Fire8
     21301576: DungeonCrawl_ProjectUtumnoTileset_788
     21301578: DungeonCrawl_ProjectUtumnoTileset_789
     21301580: DungeonCrawl_ProjectUtumnoTileset_790
@@ -1167,7 +1167,7 @@ TextureImporter:
     21302320: DungeonCrawl_ProjectUtumnoTileset_1160
     21302322: DungeonCrawl_ProjectUtumnoTileset_1161
     21302324: DungeonCrawl_ProjectUtumnoTileset_1162
-    21302326: DungeonCrawl_ProjectUtumnoTileset_1163
+    21302326: Tree
     21302328: DungeonCrawl_ProjectUtumnoTileset_1164
     21302330: DungeonCrawl_ProjectUtumnoTileset_1165
     21302332: DungeonCrawl_ProjectUtumnoTileset_1166
@@ -3054,6 +3054,7 @@ TextureImporter:
     21306094: DungeonCrawl_ProjectUtumnoTileset_3047
     21306096: DungeonCrawl_ProjectUtumnoTileset_3048
     21306098: DungeonCrawl_ProjectUtumnoTileset_3049
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -3107,6 +3108,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -3115,6 +3117,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -3123,6 +3126,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -14053,7 +14057,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_780
+      name: Fire1
       rect:
         serializedVersion: 2
         x: 416
@@ -14067,7 +14071,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_781
+      name: Fire2
       rect:
         serializedVersion: 2
         x: 448
@@ -14081,7 +14085,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_782
+      name: Fire3
       rect:
         serializedVersion: 2
         x: 480
@@ -14095,7 +14099,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_783
+      name: Fire4
       rect:
         serializedVersion: 2
         x: 512
@@ -14109,7 +14113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_784
+      name: Fire5
       rect:
         serializedVersion: 2
         x: 544
@@ -14123,7 +14127,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_785
+      name: Fire6
       rect:
         serializedVersion: 2
         x: 576
@@ -14137,7 +14141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_786
+      name: Fire7
       rect:
         serializedVersion: 2
         x: 608
@@ -14151,7 +14155,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_787
+      name: Fire8
       rect:
         serializedVersion: 2
         x: 640
@@ -19415,7 +19419,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DungeonCrawl_ProjectUtumnoTileset_1163
+      name: Tree
       rect:
         serializedVersion: 2
         x: 384

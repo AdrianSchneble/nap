@@ -171,7 +171,7 @@ Prefab:
     - target: {fileID: 114856868086526536, guid: be08d5357b9aaf24886da3aec762b823,
         type: 2}
       propertyPath: speed
-      value: 0.08
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1083529237263354, guid: be08d5357b9aaf24886da3aec762b823, type: 2}
       propertyPath: m_TagString
@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomSize: 11
+  roomCount: -1
   groundTile: {fileID: 1601344755363338, guid: 4fd542614a742ae40b4e5d3779c437ab, type: 2}
   wallTile: {fileID: 1601344755363338, guid: 9bc626706c7139b41ac73c2a24b982ec, type: 2}
   doorTile: {fileID: 1601344755363338, guid: 20cc63473077ce4429e97c3badda9e9b, type: 2}
@@ -320,7 +321,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
