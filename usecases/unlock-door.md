@@ -47,6 +47,43 @@ The use case is intiated by the player trying to open a door by approaching it. 
 
 <img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/usecases/UC_OpenDoor_ActivityDiagram.png">
 
+```gherkin
+Feature: OpenDoor
+	As a player
+	I want to open a door
+
+Scenario: Open unlocked door 
+	Given I am standing on a GroundTile adjacent to the door
+	And the door is closed
+	And the door is unlocked 
+	When I press e
+	Then the door should open 
+
+Scenario: Open locked door with Key
+	Given I am standing on a GroundTile adjacent to the door
+	And the door is closed
+	And the door is locked
+	And I have a key
+	When I press e
+	Then the door should open
+	And the key should be removed from my Inventory
+
+Scenario: Open locked door without Key
+	Given I am standing on a GroundTile adjacent to the door
+	And the door is closed
+	And the door is locked
+	And I do not have a key
+	When I press e
+	Then the door should not open
+
+Scenario: Closing Door
+	Given I am standing on a GroundTile adjacent to the door
+	And the door is open
+	And no Entity is in the door
+	When I press e
+        Then the door should close
+```
+
 <a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/OpenDoor.feature>Narrative</a>
 
 <a href= https://github.com/AdrianSchneble/nap/blob/master/usecases/OpenDoorSteps.cs>Step definitions</a>
