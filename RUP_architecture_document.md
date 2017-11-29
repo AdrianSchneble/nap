@@ -44,17 +44,25 @@ Software Architecture Document
 
 # 1.Introduction
 
-## 1.1Purpose
+## 1.1 Purpose
 
 This document provides a comprehensive architectural overview of the system, using a number of different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system.
 
-## 1.2Scope
+## 1.2 Scope
 
-## 1.3Definitions, Acronyms, and Abbreviations
+This document describes the architecture used in the NAP projekt. As we neather have a client-server architecture nor a database, this document only contains the mvc-pattern.
 
-## 1.4References
+## 1.3 Definitions, Acronyms, and Abbreviations
 
-## 1.5Overview
+n/a
+
+## 1.4 References
+
+n/a
+
+## 1.5 Overview
+
+n/a
 
 # 2.Architectural Representation
 
@@ -62,7 +70,7 @@ Model-View-Controller pattern
 
 # 3.Architectural Goals and Constraints
 
-Goal is to apply the MVC pattern to our project. Since we are using Unity we do not have an external MVC framework but we use the Unity architecture which is similar to MVC. The differce is, that the view and the controller classes are not clearly divided.
+Goal is to apply the MVC pattern to our project. Since we are using Unity we do not have an external MVC framework but we use the Unity architecture which is similar to MVC. The difference is, that the view and the controller classes are not clearly divided.
 
 # 4.Use-Case View
 
