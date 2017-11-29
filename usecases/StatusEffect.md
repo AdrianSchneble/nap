@@ -23,7 +23,7 @@ Table of Contents
 |         Basic Flow        |
 |         Alternative Flows        |
 | 2.2.1        Identical Status Effect is applied again        |
-| 2.2.2        2.2.2 Player Dies       |
+| 2.2.2        Player Dies       |
 | 3.        Special Requirements        |
 | 4.        Preconditions        |
 | 4.4.1     Player must be alive |
