@@ -82,7 +82,6 @@ status effects, and all status effects present when a player dies are removed on
 
 The player must be in the dungeon to trigger status effects, as there are no triggers in the players base. If the player leaves the dungeon, all status effects are removed
 
-The pp
 ## 5. Postconditions
 
 n/a
