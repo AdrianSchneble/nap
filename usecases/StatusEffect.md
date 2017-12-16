@@ -69,8 +69,6 @@ If a player dies while beeing affected by status affects, the duration of all st
 
 n/a
 
-### 3.1&lt; First Special Requirement &gt;
-
 ## 4. Preconditions
 
 ### 4.1 Player must be alive
