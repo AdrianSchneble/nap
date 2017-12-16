@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3270f75fa4d6f004d855652ec17e4d94
+timeCreated: 1509296610
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - groundTile: {fileID: 1601344755363338, guid: 4fd542614a742ae40b4e5d3779c437ab,
+      type: 2}
+  - wallTile: {fileID: 1601344755363338, guid: 9bc626706c7139b41ac73c2a24b982ec, type: 2}
+  - doorTile: {fileID: 1601344755363338, guid: 20cc63473077ce4429e97c3badda9e9b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

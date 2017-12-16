@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5177dbe48ca3bea42bf4e5af6bf32d20
+timeCreated: 1511097673
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - openSprite: {instanceID: 0}
+  - closedSprite: {instanceID: 0}
+  - doorCollider: {instanceID: 0}
+  - player: {fileID: 1083529237263354, guid: be08d5357b9aaf24886da3aec762b823, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
