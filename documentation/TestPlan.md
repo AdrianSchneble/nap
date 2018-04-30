@@ -271,8 +271,9 @@ The following table sets forth the system resources for the test effort presente
 
 System Resources
 
-| --- | --- | --- |
+
 | **Resource** | **Quantity** | **Name and Type** |
+| --- | --- | --- |
 | Client Test PCs | 3 | Laptop, Windows 10 |
 | Client Test PCs | 1 | Desktop PC, Windows 7 |
 | Client Test PCs | 3 | Desktop PC, Windows 10 |
