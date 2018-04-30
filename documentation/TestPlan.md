@@ -198,10 +198,7 @@ n/a
 n/a
 
 #### 5.2.12 Installation Testing
-| Technique Objective: | Exercise the installation of the target-of-test onto each required hardware configuration under the following conditions to observe and log installation behavior and configuration state changes:
-- new installation: a new machine, never installed previously with NAP;
-- update: a  machine previously installed NAP, same version
-- update: a machine previously installed NAP, older version|
+| Technique Objective:| Exercise the installation of the target-of-test onto each required hardware configuration under the following conditions to observe and log installation behavior and configuration state changes: new installation: a new machine, never installed previously with NAP; update: a  machine previously installed NAP, same versionupdate: a machine previously installed NAP, older version |
 | --- | --- |
 | Technique: | Manual download and installation. This test is not common enough to warrant automization.  |
 | Oracles: | Manual launch of installed programm. |
@@ -263,7 +260,6 @@ n/a
 #### 7.6.4 Traceability Matrices
 n/a
 
-
 ## 8.Testing Workflow
 When an Implementer adds a new function to the project, they also write a Unit-Test covering the function. All unit tests are then automatically executed on a build.
 
@@ -271,14 +267,11 @@ When an Implementer adds a new function to the project, they also write a Unit-T
 
 ### 9.1 Base System Hardware
 
-The following table sets forth the system resources for the test effort presented in this _Test Plan_.
+The following table sets forth the system resources for the test effort presented in this Test plan.
 
-[The specific elements of the test system may not be fully understood in early iterations, so expect this section to be completed over time. We recommend that the system simulates the production environment, scaling down the concurrent access and database size, and so forth, if and where appropriate.]
+System Resources
 
-[**Note** :  Add or delete items as appropriate.]
-
-| **System Resources** |
-| --- |
+| --- | --- | --- |
 | **Resource** | **Quantity** | **Name and Type** |
 | Client Test PCs | 3 | Laptop, Windows 10 |
 | Client Test PCs | 1 | Desktop PC, Windows 7 |
@@ -304,7 +297,8 @@ The following tools will be employed to support the test process for this Test p
 | Project Management | YouTrack  | Vendor | 2018.1 |
 
 ### 9.4 Test Environment Configurations
-n/a
+
+The Testing environement must be able to run the game at an acceptable framerate (minimum 30 FPS, 60FPS or more is ideal). Otherwise, there is no specific configuration necessary.
 
 ## 10. Responsibilities, Staffing, and Training Needs
 ### 10.1 People and Roles
