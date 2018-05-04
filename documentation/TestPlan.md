@@ -4,14 +4,14 @@
 
 ## Test Plan
 
-Version 1.0
+Version 1.1
 
 ## Revision History
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
 | 29.04.2018 | 1.0 | Initial Version | Nikolas Traut |
-|   |   |   |   |
+|  04.05.2018 |  1.1  | Added Information to 6.1.1  |  Nikolas Traut |
 |   |   |   |   |
 |   |   |   |   |
 
@@ -209,7 +209,7 @@ n/a
 ## 6. Entry and Exit Criteria
 ### 6.1Test Plan
 #### 6.1.1 Test Plan Entry Criteria
-The execution of the test plan can begin as soon as the firtst unit test is written. 
+The execution of the test plan can begin as soon as the firtst unit test is written. A new build is automatically initiated after each commit and is executed by Unity Cloud Build. 
 
 #### 6.1.2 Test Plan Exit Criteria
 The execution of the test plan is complete when the project is finished
