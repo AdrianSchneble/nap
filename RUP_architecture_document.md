@@ -70,7 +70,9 @@ Model-View-Controller pattern
 
 # 3.Architectural Goals and Constraints
 
-Goal is to apply the MVC pattern to our project. Since we are using Unity we do not have an external MVC framework but we use the Unity architecture which is similar to MVC. The difference is, that the view and the controller classes are not clearly divided. The aim of the Factory Pattern is to create complex objects more easily. Instead of creating an object with the “new” operator, you call a method of the factory class.
+Goal is to apply the MVC pattern to our project. Since we are using Unity we do not have an external MVC framework but we use the Unity architecture which is similar to MVC. The difference is, that the view and the controller classes are not clearly divided.
+
+The aim of the Factory Pattern is to create complex objects more easily. Instead of creating an object with the “new” operator, you call a method of the factory class.
 
 The factory class enables you to create objects step by step. In this class, there are methods like “withSpeed(int speed)” which all return an instance of the factory class. When ready, the object will be created by a method like “get()” which does not return an instance of the factory class, but an instance of the object you want to create.
 
