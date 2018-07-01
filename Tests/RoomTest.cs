@@ -8,7 +8,7 @@ public class RoomTest
 {
 
 	[Test]
-	public void ExpectHasCoordinateToReturnTrueAsIntendedWhenCallingOnA1x1Room()
+	public void ExpectHasCoordinateToReturnTrueAsIntendedWhenCallingOnA1X1Room()
 	{
 		//using random, not 0 or 1 values
 		int x = 5;
@@ -19,7 +19,7 @@ public class RoomTest
 	}
 
 	[Test]
-	public void ExpectHasCoordinateToReturnFalseAsIntendedWhenCallingOnA1x1Room()
+	public void ExpectHasCoordinateToReturnFalseAsIntendedWhenCallingOnA1X1Room()
 	{
 		//using random, not 0 or 1 values
 		int x = 9;

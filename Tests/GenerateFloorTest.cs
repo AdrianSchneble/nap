@@ -7,14 +7,14 @@ using NUnit.Framework;
 
 public class GenerateFloorTest
 {
-
+	
 	[Test]
 	public void ExpectReturnedListToContainExactlyOneStartingRoom()
 	{
-		GenerationScript script = new GenerationScript(10);
-		script.GenerateFloor();
+		FloorGenerator generator = new FloorGenerator(10);
+		generator.GenerateFloorLayout();
 		int startingRoomCount = 0;
-		foreach (Room room in script.GetFloor())
+		foreach (Room room in generator.GetFloor())
 		{
 			if (room.type == Room.START)
 			{
@@ -27,10 +27,10 @@ public class GenerateFloorTest
 	[Test]
 	public void ExpectReturnedListToContainExactlyOneEndRoom()
 	{
-		GenerationScript script = new GenerationScript(10);
-		script.GenerateFloor();
+		FloorGenerator generator = new FloorGenerator(10);
+		generator.GenerateFloorLayout();
 		int endRoomCount = 0;
-		foreach (Room room in script.GetFloor())
+		foreach (Room room in generator.GetFloor())
 		{
 			if (room.type == Room.END)
 			{
@@ -43,11 +43,11 @@ public class GenerateFloorTest
 	[Test]
 	public void ExpectCalculateNewSurroundingsToCalculateCorrectlyWhenGivenTheStartingRoom()
 	{
-		GenerationScript script = new GenerationScript(10);
+		FloorGenerator generator = new FloorGenerator(10);
 		Room newRoom = new Room(Room.START, new Coordinate(0, 0));
 
-		script.CalculateNewSurroundings(newRoom);
-		List<Coordinate> possibleLocations = script.GetPossibleLocations();
+		generator.CalculateNewSurroundings(newRoom);
+		List<Coordinate> possibleLocations = generator.GetPossibleLocations();
 
 		Assert.Contains(new Coordinate(0, 1), possibleLocations);
 		Assert.Contains(new Coordinate(0, -1), possibleLocations);
@@ -58,16 +58,22 @@ public class GenerateFloorTest
 	[Test]
 	public void ExpectCalculateNewSurroundingToCalculateCorrectlyWithOneExistingRoom()
 	{
-		GenerationScript script = new GenerationScript(10);
+		FloorGenerator generator = new FloorGenerator(10);
 		Room newRoom = new Room(Room.START, new Coordinate(0, 0));
 		
-		script.CalculateNewSurroundings(newRoom);
-		List<Coordinate> possibleLocations = script.GetPossibleLocations();
+		generator.CalculateNewSurroundings(newRoom);
+		List<Coordinate> possibleLocations = generator.GetPossibleLocations();
 
 		Assert.Contains(new Coordinate(0, 1), possibleLocations);
 		Assert.Contains(new Coordinate(0, -1), possibleLocations);
 		Assert.Contains(new Coordinate(1, 0), possibleLocations);
 		Assert.Contains(new Coordinate(-1, 0), possibleLocations);
+	}
+
+	[Test]
+	public void ExpectIsAdjacentToFunctionCorrectly()
+	{
+		Assert.IsTrue(new Coordinate(0, 1).IsAdjacent(new Coordinate(0, 0)));
 	}
 
 }

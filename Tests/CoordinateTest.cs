@@ -50,8 +50,8 @@ public class CoordinateTest
 	[Test]
 	public void ExpectGetSurroundingCoordinatesToReturn4Values()
 	{
-		Coordinate c = new Coordinate(3, 7);
-		List<Coordinate> list = c.GetSurroundingCoordinates();
+		Coordinate coordinate = new Coordinate(3, 7);
+		List<Coordinate> list = coordinate.GetDirectlyAdjacentCoordinates();
 
 		Assert.That(list.Count.Equals(4));
 	}
