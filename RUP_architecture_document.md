@@ -11,7 +11,7 @@ Revision History
 | Date | Version | Description | Author |
 | --- | --- | --- | --- |
 | 26/11/17 | 1.0 | added class diagram | Patrick Siewert |
-|   |   |   |   |
+| 01/07/18 | 2.0 | updated class diagram | Patrick Siewert |
 |   |   |   |   |
 |   |   |   |   |
 
@@ -84,7 +84,7 @@ n/a
 
 ## 5.1Overview
 
-<img src="https://raw.githubusercontent.com/AdrianSchneble/nap/master/class-diagram.jpg">
+<img src="https://github.com/AdrianSchneble/nap/blob/master/documentation/patterns/class_diagram_factory_pattern.png">
 
 # 6.Process View
 
